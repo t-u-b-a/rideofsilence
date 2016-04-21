@@ -49,18 +49,18 @@ table {
 /* LAYOUT STYLES */
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, serif;
-  font-size: 1em;
-  line-height: 1.5;
+  font-size: 1.1em;
+  line-height: 1.6;
   color: #6d6d6d;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
-  background: #e7e7e7 url(../images/body-bg.png) 0 0 repeat;
+  background: #fafafa;
 }
 
 a {
-  color: #d5000d;
+  color: #303030;
 }
 a:hover {
-  color: #c5000c;
+  color: #505050;
 }
 
 header {
@@ -86,7 +86,7 @@ header h2 {
 
 #container {
   min-height: 595px;
-  background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;
+  /*background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;*/
 }
 
 .inner {
@@ -255,7 +255,7 @@ h3 {
   margin-bottom: 8px;
   font-size: 18px;
   font-weight: bold;
-  color: #d5000d;
+  color: #303030;
 }
 
 h4 {
@@ -280,7 +280,7 @@ p {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 p a {
