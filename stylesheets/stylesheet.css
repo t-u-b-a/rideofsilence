@@ -254,6 +254,7 @@ h2 {
 }
 
 h3 {
+  margin-top: 40px;
   margin-bottom: 8px;
   font-size: 18px;
   font-weight: bold;
@@ -297,8 +298,7 @@ blockquote {
 }
 
 ul li {
-  list-style-position: inside;
-  list-style: disc;
+  list-style: disc inside none;
   padding-left: 20px;
 }
 
